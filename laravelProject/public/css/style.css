@@ -1,0 +1,29 @@
+.navbar-brand img {
+    max-width: 100px; /* Adjust the width as needed */
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .container-fluid{
+    height: 400px; 
+    width: 90%; 
+    background-image: url('images/3.jpg'); 
+    background-size: cover
+  }
+
+
+  #banner  {
+    background-image: url('images/banner1.jpg');
+    background-size: cover;
+    height: 160px;
+    width: 45%;
+    transition: transform 0.3s ease;
+    }
+    #b2{
+      background-image: url('images/banner2.jpg');
+      background-size: cover;
+    }
+    #banner:hover{
+      transform: scale(1.5);
+    }
